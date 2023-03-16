@@ -21,7 +21,6 @@
   height: 46px;
   left: 120px;
   top: 18px;
-  margin: 17px 120px;
 }
 
 .content-logo {
@@ -121,8 +120,8 @@ p:hover {
   align-items: center;
   padding: 0px;
   gap: 56px;
+  margin: 70px 120px 99px 120px;
 
-  position: absolute;
   width: 1200px;
   height: 495px;
   left: 120px;
@@ -191,4 +190,83 @@ p:hover {
   text-align: center;
 
   color: #ffffff;
+}
+
+.Features {
+  width: 1440px;
+  height: 510px;
+  left: 0px;
+  top: 746px;
+
+  background-image: ../url/bg.png;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Features-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2f281e;
+  margin-bottom: 31px;
+
+}
+
+.Features-text:hover {
+  text-decoration: underline blue;
+}
+
+.Features-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 40px;
+
+ 
+  height: 50px;
+  left: 635px;
+  top: 382px;
+
+  margin: auto;
+
+  background: #ff9900;
+  border-radius: 4px;
+}
+
+.Features-button_text {
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Features-Card {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 45px;
+
+width: 1200px;
+height: 175px;
+left: 120px;
+top: 137px;
+
+margin-left: 120px;
+margin-right: 120px;
+margin-bottom: 70px;
+
+
 }
